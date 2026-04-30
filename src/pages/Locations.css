@@ -1,0 +1,58 @@
+.countries-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.country-card {
+  background: var(--color-surface);
+  border-radius: 16px;
+  padding: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: var(--transition);
+}
+
+.country-card:hover {
+  border-color: var(--color-gold);
+  box-shadow: 0 0 20px rgba(200, 169, 106, 0.1);
+}
+
+.flag {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.country-card h3 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.coverage-list {
+  list-style: none;
+  margin-top: 1.5rem;
+}
+
+.coverage-list li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.coverage-list li::before {
+  content: '→';
+  color: var(--color-gold);
+  margin-right: 10px;
+}
+
+.coverage-list li:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 992px) {
+  .countries-grid {
+    grid-template-columns: 1fr;
+  }
+}
