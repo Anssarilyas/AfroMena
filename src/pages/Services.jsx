@@ -14,41 +14,59 @@ const Services = () => {
       <section className="section services-page">
         <div className="container">
           <div className="services-grid">
-            {/* Service 1 */}
+            {/* Service 1 - Trademark */}
             <div className="service-card">
               <div className="icon-wrapper">
                 <i className="fa-solid fa-trademark"></i>
               </div>
-              <h3>Trademark Registration</h3>
-              <p>Secure your brand identity and prevent unauthorized use across local and international markets. We handle availability searches, filing, prosecution, and enforcement.</p>
-              <Link to="/contact" className="learn-more">Consult with an Expert <i className="fa-solid fa-arrow-right"></i></Link>
+              <h3>Trademark</h3>
+              <p>Secure your brand identity across local and international markets. We handle availability searches, filing, prosecution, enforcement, and renewals to protect your trademarks comprehensively.</p>
+              <Link to="/services/trademark" className="learn-more">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
             </div>
-            {/* Service 2 */}
+            {/* Service 2 - Patent */}
             <div className="service-card">
               <div className="icon-wrapper">
                 <i className="fa-solid fa-lightbulb"></i>
               </div>
-              <h3>Patent Protection</h3>
-              <p>Protect your inventions and technological advancements with robust patent drafting and filing. We ensure your innovations remain exclusively yours.</p>
-              <Link to="/contact" className="learn-more">Consult with an Expert <i className="fa-solid fa-arrow-right"></i></Link>
+              <h3>Patent</h3>
+              <p>Protect your inventions and technological advancements with robust patent drafting, filing, and prosecution. We ensure your innovations remain exclusively yours across all jurisdictions.</p>
+              <Link to="/services/patent" className="learn-more">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
             </div>
-            {/* Service 3 */}
+            {/* Service 3 - Copyright */}
             <div className="service-card">
               <div className="icon-wrapper">
                 <i className="fa-regular fa-copyright"></i>
               </div>
-              <h3>Copyright Protection</h3>
-              <p>Safeguard your creative, literary, and artistic works from infringement and unauthorized distribution. We offer comprehensive copyright registration services.</p>
-              <Link to="/contact" className="learn-more">Consult with an Expert <i className="fa-solid fa-arrow-right"></i></Link>
+              <h3>Copyright</h3>
+              <p>Safeguard your creative, literary, and artistic works from infringement and unauthorized distribution. We offer comprehensive copyright registration and enforcement services.</p>
+              <Link to="/services/copyright" className="learn-more">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
             </div>
-            {/* Service 4 */}
+            {/* Service 4 - Anti-Counterfeit / Anti-Piracy */}
             <div className="service-card">
               <div className="icon-wrapper">
-                <i className="fa-solid fa-compass-drafting"></i>
+                <i className="fa-solid fa-shield-halved"></i>
               </div>
-              <h3>Industrial Design</h3>
-              <p>Register the unique aesthetic aspects of your products to maintain your competitive edge. Protect the visual design of objects that are not purely utilitarian.</p>
-              <Link to="/contact" className="learn-more">Consult with an Expert <i className="fa-solid fa-arrow-right"></i></Link>
+              <h3>Anti-Counterfeit / Anti-Piracy</h3>
+              <p>Combat counterfeiting and piracy with our strategic enforcement programs. We coordinate customs recordation, market surveillance, and legal action to protect your brand integrity.</p>
+              <Link to="/services/anti-counterfeit" className="learn-more">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
+            </div>
+            {/* Service 5 - Litigation Legal Advisory */}
+            <div className="service-card">
+              <div className="icon-wrapper">
+                <i className="fa-solid fa-gavel"></i>
+              </div>
+              <h3>Litigation &amp; Legal Advisory</h3>
+              <p>Expert legal representation in IP disputes, infringement cases, and opposition proceedings. Our attorneys provide strategic counsel and aggressive advocacy to defend your rights.</p>
+              <Link to="/services/litigation" className="learn-more">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
+            </div>
+            {/* Service 6 - Other IP Advisory */}
+            <div className="service-card">
+              <div className="icon-wrapper">
+                <i className="fa-solid fa-briefcase"></i>
+              </div>
+              <h3>Other IP Advisory</h3>
+              <p>Comprehensive advisory services including industrial designs, trade secrets, licensing, franchising, domain name disputes, and strategic IP portfolio management.</p>
+              <Link to="/services/other-ip-advisory" className="learn-more">Learn More <i className="fa-solid fa-arrow-right"></i></Link>
             </div>
           </div>
         </div>
